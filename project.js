@@ -14,8 +14,16 @@ function updateHighScore() {
   }
 }
 
+function resetGame() {
+    feedback.textContent = `New high score: ${highScore}`
+    feedback.textContent += `Please enter a number between 1 and 100.`
+    guesses = 0
+    randomNumber = Math.floor(Math.random() * 100) + 1
+    guessInput.value = ''
+  }
+
 function checkGuess() {
-  var userGuess = parseInt(guessInput.value);
+  var userGuess = parseInt(guessInput.value)
   if (userGuess!==undefined) {
     guesses++
     if (userGuess === randomNumber) {
@@ -34,13 +42,7 @@ function checkGuess() {
     feedback.textContent = `Please enter a valid number.`
   }
 }
-function resetGame() {
-    feedback.textContent = `New high score: ${highScore}`
-    feedback.textContent += `Please enter a number between 1 and 100.`
-    guesses = 0
-    randomNumber = Math.floor(Math.random() * 100) + 1
-    guessInput.value = ''
-  }
+
   
   
 
