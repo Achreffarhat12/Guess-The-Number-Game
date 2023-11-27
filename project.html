@@ -1,26 +1,27 @@
-
-<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
     <link rel="stylesheet" href="project.css">
-    <title>Guess the Number Game</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Guess the Number Game</h1>
-        <p id="message">Guess a number between 1 and 100<br>Good luck </p>
-        <input type="number" id="userGuess" placeholder="Enter your guess here"><br>
-        <button onclick="checkGuess()">Click here to <br>confirm</button>
-        <p id="score">Score: 0</p>
+    <h2>Good luck guessing the number</h2>
+    <div id="game">
+        <p>I'm thinking of a number between 1 and 100. Try to guess it.</p>
+        <input type="number" id="guessInput">
+        <button id="guessButton">Guess</button>
+        <div id="feedback"></div>
     </div>
 
     <script src="project.js"></script>
 </body>
 </html>
+
+
+
+
 
 
 
