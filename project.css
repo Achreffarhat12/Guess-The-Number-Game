@@ -1,5 +1,5 @@
 body {
-    background-image: url("games_small-guess_the_number.png");
+    background-image: url("guess\ my\ number\ .png");
     font-family: sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,9 +14,8 @@ p{
     width: 800px;
     margin: 0 auto;
     background-color:white;
-    padding: 50px;
+    padding: 45px;
     border-radius: 50px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
 
