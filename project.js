@@ -16,7 +16,7 @@ function updateHighScore() {
 
 function resetGame() {
     feedback.textContent = `New high score: ${highScore}`
-    feedback.textContent += `Please enter a number between 1 and 100.`
+    feedback.textContent += `  Please enter a number between 1 and 100.`
     guesses = 0
     randomNumber = Math.floor(Math.random() * 100) + 1
     guessInput.value = ''
