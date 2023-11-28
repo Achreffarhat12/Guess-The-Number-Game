@@ -14,12 +14,10 @@
 - userGuess: This variable extracts the integer value from the guess input element.
 - guesses update: It increments the guesses counter for each attempt.
 - Correct guess: If the user guess matches the random number, it displays a success message, updates the best attempts record, and resets the game.
-- Close guess: If the user guess is within 5 of the random number, it provides a "close" hint.
 - Incorrect guess: If the user guess is too high or too low, it provides the corresponding feedback.
 
       The function resetGame reset the game state after a successful guess or premature reset.
 
 - Updated feedback: It provides a clear instruction for the next round.
-- Enabling inputs: It enables the guess input and button for the new round.
 - Resetting guesses: It resets the guesses counter to 0.
 - Generating new random number: It generates a new random number
